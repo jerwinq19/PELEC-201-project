@@ -1,0 +1,42 @@
+.about-section {
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--dark-brown);
+}
+
+.kofi{
+    width: 45vw;
+    object-fit: fill;
+    margin-top: 2rem;
+    height: 80vh;
+    border: 2px solid var(--dark-brown);
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.about-sct-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: clamp(1rem, 2vw, 2rem); /* Responsive margin */
+}
+
+.about-section h1 {
+    font-family: var(--abril);
+    font-weight: 400;
+    font-size: clamp(2rem, 4vw, 3rem); /* Responsive font size */
+    margin: 0;
+}
+
+.about-section h2 {
+    font-family: var(--nunito);
+    font-size: clamp(1.2rem, 3vw, 1.8rem); /* Responsive font size */
+    width: clamp(70%, 80%, 90%); /* Responsive width */
+}
+
+.about-section p {
+    font-family: var(--nunito);
+    width: clamp(70%, 85%, 100%); /* Responsive width for mobile and tablet */
+    font-size: clamp(0.9rem, 1.2rem, 1.6vw); /* Responsive font size */
+    word-wrap: break-word; /* Ensure long words break to fit container */
+    margin-bottom: clamp(1rem, 2vw, 1.5rem); /* Responsive margin-bottom */
+}

@@ -1,0 +1,110 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+.title, .title h1{
+    font-family: var(--nunito);
+    font-size: 3.3rem;
+    margin: 0.5rem 2rem;
+    text-align: center;
+    color: var(--dark-brown);
+}
+
+
+.myhero {
+    width: 90vw;
+    height: 75vh;
+    object-fit: fill;
+    border: 3px solid var(--dark-brown);
+}
+
+.hero-text{
+    max-width: 90vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 2rem;
+}
+
+.hero-text p {
+    max-width: 50%;
+    font-family: var(--nunito);
+    font-size: clamp(0.8rem, 1.2vw, 1rem); /* Responsive font size */
+    font-weight: 500;
+    color: var(--dark-brown);
+}
+
+.hero-text a {
+    background-color: var(--dark-brown);
+    color: var(--light-brown);
+    text-decoration: none;
+    padding: clamp(0.8rem, 1vw, 1.2rem) clamp(1.5rem, 3vw, 2.5rem); /* Responsive padding */
+    font-family: var(--lato);
+    font-size: clamp(1rem, 2vw, 1.3rem); /* Responsive font size */
+    font-weight: 700;
+    transition: 0.1s ease;
+    border: 3px solid var(--dark-brown);
+}
+
+.hero-text a:hover {
+    border: 3px solid var(--dark-brown);
+    background-color: var(--light-brown);
+    color: var(--dark-brown);
+}
+
+/* about */
+.about {
+    font-family: var(--abril);
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 0px;
+    margin-right: auto;
+    margin-left: 4%;
+    color: var(--dark-brown);
+}
+
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90vw;
+}
+
+.middle p {
+    font-family: var(--nunito);
+    width: 55%;
+    font-size: clamp(0.9rem,1.4rem, 1.6vw); /* Adjusted for better scaling */
+    color: var(--dark-brown);
+}
+
+.middle img {
+    width: clamp(200px, 35vw, 400px); /* Adjusted for more flexibility */
+    height: 40vh;
+    object-fit: fill;
+    border: 2px solid var(--dark-brown);
+}
+
+.learn-more {
+    background-color: var(--dark-brown);
+    color: var(--light-brown);
+    text-decoration: none;
+    padding: clamp(0.8rem, 1vw, 1.2rem) clamp(1.5rem, 3vw, 2.5rem); /* Responsive padding */
+    font-family: var(--lato);
+    font-size: clamp(1rem, 2vw, 1.3rem); /* Responsive font size */
+    font-weight: 700;
+    transition: 0.1s ease;
+    border: 3px solid var(--dark-brown);
+    margin: 2rem;
+}
+
+.learn-more:hover {
+    border: 3px solid var(--dark-brown);
+    background-color: var(--light-brown);
+    color: var(--dark-brown);
+}
