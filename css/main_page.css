@@ -86,7 +86,7 @@
 .middle img {
     width: clamp(200px, 35vw, 400px); /* Adjusted for more flexibility */
     height: 40vh;
-    object-fit: fill;
+    object-fit: cov;
     border: 2px solid var(--dark-brown);
 }
 
