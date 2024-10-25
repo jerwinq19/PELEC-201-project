@@ -217,6 +217,7 @@ li.dropdown {
     font-size: 1rem;
 }
 
+<<<<<<< HEAD
 /* Responsive Styles */
 @media (max-width: 500px) {
     .buttons ul {
@@ -243,3 +244,6 @@ li.dropdown {
         display: flex; /* Show the burger menu */
     }
 }
+=======
+
+>>>>>>> 74d240c011ddf4df6ec8577b30f0fd2093a762df
