@@ -9,13 +9,7 @@ body {
     margin: 0rem 3rem;
 }
 
-<<<<<<< HEAD
 .container p {
-=======
-
-
-.title, .title h1{
->>>>>>> 74d240c011ddf4df6ec8577b30f0fd2093a762df
     font-family: var(--nunito);
     font-size: 1.2em;
     font-weight: 400;
@@ -37,12 +31,7 @@ body {
     color: var(--dark-brown);
 }
 
-.hero-img {
-    width: 90vw;
-    height: auto;
-}
 
-<<<<<<< HEAD
 /* image responsiveness */
 .hero-ctn {
     width: 100%;
@@ -56,19 +45,6 @@ body {
 }
 
 .hero-text {
-=======
-.myhero {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-
-
-.hero-text{
-    max-width: 90vw;
-    height: auto;
->>>>>>> 74d240c011ddf4df6ec8577b30f0fd2093a762df
     display: flex;
     width: 100%;
     height: auto;
@@ -116,27 +92,12 @@ body {
     color: var(--dark-brown);
 }
 
-<<<<<<< HEAD
-=======
-.mid-img {
-    width: 35vw;
-    height: 35vw;
-}
-
-.mid-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
->>>>>>> 74d240c011ddf4df6ec8577b30f0fd2093a762df
 .learn-more {
     padding: 1rem 2rem;
     margin-left: 20%;
     margin-right: auto;
 }
 
-<<<<<<< HEAD
 
 @media (max-width: 600px) {
 
@@ -185,125 +146,4 @@ body {
         margin-left: 0px;
     }
 
-=======
-.learn-more:hover {
-    border: 3px solid var(--dark-brown);
-    background-color: var(--light-brown);
-    color: var(--dark-brown);
-}
-
-
-/* Media Queries */
-
-/* Tablet devices (768px and above) */
-@media only screen and (max-width: 1024px) {
-    .container {
-        margin-bottom: 2rem; /* Adjust bottom margin for tablet */
-    }
-
-    .title h1 {
-        font-size: 2.8rem; /* Smaller title font */
-        margin: 0.5rem 1.5rem;
-    }
-
-    .hero-img {
-        width: 80vw; /* Slightly narrower image for tablet */
-    }
-
-    .hero-text {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center;
-        margin: 1rem;
-        max-width: 100%; /* Full width for text */
-    }
-
-    .hero-text p {
-        max-width: 80%; /* Adjust text width */
-        font-size: clamp(0.8rem, 1vw, 1rem); /* Adjusted font size */
-    }
-
-    .about {
-        font-size: 2.5rem; /* Smaller font size */
-        margin-left: 2%; /* Adjust margin */
-    }
-
-    .middle {
-        flex-direction: column; /* Stack content */
-        align-items: center;
-        max-width: 100%; /* Full width */
-    }
-
-    .middle p {
-        width: 90%; /* Full width for text */
-        text-align: center;
-        font-size: 1.1rem; /* Adjust font size */
-    }
-
-    .mid-img {
-        width: 60vw; /* Larger image width */
-        height: auto; /* Auto height */
-    }
-}
-
-/* Mobile devices (480px and below) */
-@media only screen and (max-width: 480px) {
-    .container {
-        margin-bottom: 1.5rem; /* Reduced bottom margin for mobile */
-    }
-
-    .title h1 {
-        font-size: 2.2rem; /* Smaller title font */
-        margin: 0.5rem 1rem;
-    }
-
-    .hero-img {
-        width: 95vw; /* Full width on mobile */
-    }
-
-    .hero-text {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center;
-        margin: 1rem;
-        max-width: 100%;
-    }
-
-    .hero-text p {
-        max-width: 100%; /* Full width for text */
-        font-size: 0.9rem; /* Smaller font size */
-        text-align: center; /* Center-align text */
-    }
-
-    .hero-text a {
-        padding: 0.6rem 1.2rem; /* Smaller padding */
-        font-size: 1rem; /* Adjusted font size */
-    }
-
-    .about {
-        font-size: 2rem; /* Smaller font size */
-        margin-left: 1rem;
-    }
-
-    .middle {
-        flex-direction: column;
-        align-items: center;
-        max-width: 100%;
-    }
-
-    .middle p {
-        width: 90%;
-        text-align: center;
-        font-size: 0.9rem; /* Smaller font size */
-    }
-
-    .mid-img {
-        width: 80vw; /* Adjust image size */
-        height: auto;
-    }
-
-    .learn-more {
-        padding: 0.6rem 1.2rem; /* Smaller padding */
-        font-size: 0.9rem; /* Adjusted font size */
-        margin: 1rem; /* Adjust margin */
-    }
->>>>>>> 74d240c011ddf4df6ec8577b30f0fd2093a762df
 }
